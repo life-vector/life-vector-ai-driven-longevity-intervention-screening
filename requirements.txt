@@ -1,0 +1,25 @@
+# Life Vector Commons - required for all components
+life-vector-commons @ git+https://github.com/life-vector/life-vector-commons.git
+
+# Core dependencies
+numpy>=1.26.0
+pandas>=2.0.0
+scipy>=1.12.0
+
+# Machine learning
+scikit-learn>=1.4.0
+
+# Data fetching
+GEOparse>=2.0.3
+requests>=2.31.0
+pubchempy>=1.0.4
+
+# Testing
+pytest>=8.0.0
+pytest-cov>=4.0.0
+
+# Modal (for deployment)
+modal>=0.60.0
+
+
+
